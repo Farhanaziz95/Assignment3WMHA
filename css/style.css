@@ -35,7 +35,7 @@
     margin-top: 10px;
     font-size: 10px;
 }
-
+/* Nav bar styling starts from here */
 .logo-nav {
     text-align: center;
     padding-left: 80px;
@@ -120,4 +120,160 @@
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+}
+/* Nav bar styling End here */
+
+.newsbar{
+    background-color: #316dc3;
+    margin-top: 10px;
+}
+
+
+.newdatetext{
+
+    color: #00FF00;
+}
+
+.newtext{
+    color: #ffffff;
+}
+
+.newslink{
+    color: blue;
+}
+
+.boxinto{
+    margin-top: 10px;
+    background-color: #f7f8fa;
+}
+
+.headingTitle{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.headingTitle h2{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+
+.headingTitle img{
+    margin-top: -10px;
+    width: 140px;
+}
+
+
+.blue{
+    color: #316dc3;
+}
+.green{
+    color: #427900;
+}
+
+.marginbody{
+    margin: 12px 100px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 40px;
+}
+
+.archives{
+    text-align: center;
+    background-color: #2755e9;
+    padding: 40px 0px;
+    color: white;
+}
+
+.archives img{
+    width: 40px;
+}
+
+.boxWWAD{
+    margin-top: 10px;
+    background-color: #f7f8fa;
+}
+
+.cardboxshadow
+{
+    text-align: center;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.cardboxshadow h4
+{
+    color: #316DC3;
+    margin: 25px 0px;
+    font-weight: 700;
+}
+
+.upcomingtitle{
+    font-weight: 600;
+    color: #316DC3;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-top: 0!important;
+    border-bottom: 1px solid #eeeeee !important;
+}
+/* after is used for creating some element which is attacable or detachable to the current element of styling  */
+.upcomingtitle:after {
+    bottom: -1px; /* setting location */ 
+    content: ""; /* Content is nessecery coz if element have no value it is not acceptable */
+    height: 2px; /* Height of the element */
+    left: 0; /* setting location */
+    position: absolute; /* setting position AKA what i called attacable and detachable */
+    width: 50px; /* Width of the element */
+    background: #427900; /* The color of the element */
+    /* thus a line under the element having class upcomingtitle has been made */
+}
+
+
+.upcomingmission{
+    font-weight: 600;
+    color: #316DC3;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-top: 0!important;
+}
+
+/* after is used for creating some element which is attacable or detachable to the current element of styling  */
+.upcomingmission:after {
+    bottom: -1px; /* setting location */ 
+    content: ""; /* Content is nessecery coz if element have no value it is not acceptable */
+    height: 2px; /* Height of the element */
+    left: 0; /* setting location */
+    position: absolute; /* setting position AKA what i called attacable and detachable */
+    width: 50px; /* Width of the element */
+    background: #427900; /* The color of the element */
+    /* thus a line under the element having class upcomingtitle has been made */
+}
+.linkdeco{
+    text-decoration: none;
+    color: black;
+}
+.linkdeco:hover{
+    text-decoration: none;
+    color: black;
+}
+.cardboxup{
+    background-color: #f7f8fa;
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.cardboxup img{
+    margin-right: 30px;
+}
+
+.cardboxtext{
+    font-size: 15px;
+    color: #316DC3;
+    font-weight: 700;
 }
