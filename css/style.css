@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .top-bar-bg{
     background-color: #316DC3;
 }
@@ -277,3 +281,56 @@
     color: #316DC3;
     font-weight: 700;
 }
+
+.flexbox-roundspace
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containerimg {
+    position: relative;
+    width: 200px;
+  }
+  
+  .imageinside {
+    display: block;
+    width: 200px;
+    height: auto;
+  }
+  
+  .overlayimg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #dededead;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+  
+  .containerimg:hover .overlayimg {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .textimg {
+    color: Black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
